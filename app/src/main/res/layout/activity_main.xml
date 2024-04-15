@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="Hitung Nilai Akhir Mahasiswa"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewKeaktifan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Masukkan Nilai Keaktifan" />
+
+        <EditText
+            android:id="@+id/edtkeaktifan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Nilai Keaktifan"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Masukkan Nilai Tugas" />
+
+        <EditText
+            android:id="@+id/edtTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Nilai Tugas"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewUTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Masukkan Nilai UTS" />
+
+        <EditText
+            android:id="@+id/edtUTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Nilai UTS"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewUAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Masukkan Nilai UAS" />
+
+        <EditText
+            android:id="@+id/edtUAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:hint="Nilai UAS"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnhitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="10dp"
+            android:insetTop="6dp"
+            android:insetRight="10dp"
+            android:text="HITUNG" />
+
+        <TextView
+            android:id="@+id/textViewHasilAngka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Nilai Angka" />
+
+        <TextView
+            android:id="@+id/textViewHasilHuruf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Nilai Huruf" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
